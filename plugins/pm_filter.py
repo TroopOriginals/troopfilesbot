@@ -409,7 +409,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TMAMovies'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TroopOriginals'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 OUR CHANNEL', url='https://t.me/TMAMovies')
+            InlineKeyboardButton('🤖 OUR CHANNEL', url='https://t.me/TroopOriginals')
            
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
