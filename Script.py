@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """<b>ʜᴇʟʟᴏ</b> {},
-<b>ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʀᴇꜱᴜʟᴛꜱ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ꜰɪʟᴇ ᴀɴᴅ ᴡʜɪᴄʜ ꜱɪᴢᴇ ʏᴏᴜ ᴡᴀɴᴛ😉😍</b> \n \n <b>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 :- @TMASupport \n 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :- @TMAMovies</b>"""
+<b>ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʀᴇꜱᴜʟᴛꜱ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ꜰɪʟᴇ ᴀɴᴅ ᴡʜɪᴄʜ ꜱɪᴢᴇ ʏᴏᴜ ᴡᴀɴᴛ😉😍</b> \n \n <b>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 :- @TMASupport \n 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :- @TroopOriginals</b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/TMAMovies>TMA Movies</a>
-✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- 𝐓𝐌𝐀 𝐂𝐥𝐨𝐮𝐝
-✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- 𝐓𝐌𝐀 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/TroopOriginals> 𝐓𝐫𝐨𝐨𝐩 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥𝐬</a>
+✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- 𝐓𝐫𝐨𝐨𝐩𝐬 𝐂𝐥𝐨𝐮𝐝
+✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- 𝐓𝐫𝐨𝐨𝐩𝐬 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
 ✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟑.𝟎"""
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
@@ -65,7 +65,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of TMA Files Bot
+these are the extra features of Troops Files Bot
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -95,7 +95,7 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
-★ Powered BY @TMAMovies"""
+★ Powered BY @TroopOriginals"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
