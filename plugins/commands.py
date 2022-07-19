@@ -48,12 +48,12 @@ async def start(client, message):
         ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/trooporiginals'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/+FF8C1sCmBBM3MTNl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('👤 Owner', url='https://telegram.me/tmasupport')
+            InlineKeyboardButton('👤 Owner', url='https://telegram.me/TroopQueries_Bot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -100,12 +100,12 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/trooporiginals'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/+FF8C1sCmBBM3MTNl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('👤 Owner', url='https://telegram.me/tmasupport')
+            InlineKeyboardButton('👤 Owner', url='https://telegram.me/TroopQueries_Bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
